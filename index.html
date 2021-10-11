@@ -18,15 +18,21 @@
     <header class="header">
         <div class="container header__container">
             <div class="header__box">
-                <img class="header__logo" src="./img/logo.svg" alt="logo" width="44" height="38">
-                <img class="header__search-ico" src="./img/loupe.svg" alt="loupe" width="26" height="28">
+                <a class="header__ico" href="index.html"><img class="header__logo" src="./img/logo.svg" alt="logo"
+                        width="44" height="38"></a>
+                <a class="header__ico" href="index.html">
+                    <img class="header__search-ico" src="./img/loupe.svg" alt="loupe" width="26" height="28"></a>
             </div>
             <div class="header__box">
-                <button class="header__button header__ico" type="button"><img src="./img/burger.svg" alt="menu"
-                        width="32" height="23"></button>
-                <a class="header__ico" href="#"><img src="./img/person.svg" alt="person" width="29" height="29"></a>
+                <button class="header__button header__ico" type="button" id="burger">
+                    <svg class="icon" width="32" height="23" viewBox="0 0 32 23" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" />
+                    </svg>
+                </button>
+                <a class="header__ico" href="registration.html"><img src="./img/person.svg" alt="person" width="29"
+                        height="29"></a>
                 <a class="header__ico" href="#"><img src="img/basket.svg" alt="basket" width="29" height="29"></a>
-                <nav class="header__menu">
+                <nav class="header__menu" id="menu">
                     <h2 class="header__title">menu</h2>
                     <ul class="header__menu-list">
                         <li class="header__menu-item menu-sub-item">
@@ -40,7 +46,7 @@
                                 <li class="menu-sub-item__item">T-Shirts</li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="header__menu-item menu-sub-item">
                             <h3 class="menu-sub-item__title">
                                 woman
                             </h3>
@@ -52,17 +58,17 @@
                                 <li class="menu-sub-item__item">Shirts</li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="header__menu-item menu-sub-item">
                             <h3 class="menu-sub-item__title">
                                 kids
                             </h3>
                             <ul class="menu-sub-item__list">
-                                <li lass="menu-sub-item__item">Accessories</li>
-                                <li lass="menu-sub-item__item">Jackets & Coats</li>
-                                <li lass="menu-sub-item__item">Polos</li>
-                                <li lass="menu-sub-item__item">T-Shirts</li>
-                                <li lass="menu-sub-item__item">Shirts</li>
-                                <li lass="menu-sub-item__item">Bags</li>
+                                <li class="menu-sub-item__item">Accessories</li>
+                                <li class="menu-sub-item__item">Jackets & Coats</li>
+                                <li class="menu-sub-item__item">Polos</li>
+                                <li class="menu-sub-item__item">T-Shirts</li>
+                                <li class="menu-sub-item__item">Shirts</li>
+                                <li class="menu-sub-item__item">Bags</li>
                             </ul>
                         </li>
                     </ul>
@@ -113,41 +119,115 @@
                 <h2 class="product__title">Fetured Items</h2>
                 <p class="product__text">Shop for items based on what we featured in this week</p>
                 <ul class="product__list">
-                    <li>
-                        <a class="product__link" href="#">
-                            <img class="product__img" src="./img/product-1.jpg" alt="photo of product">
-                        </a>
+                    <li class="product__item">
+                        <div class="product__cart">
+                            <div class="product__cart-wrapper">
+                                <div class="product__img">
+                                    <img src="./img/product-1.jpg" alt="photo of product">
+                                </div>
+                                <div class="product__overlay"></div>
+                                <a class="product__link" href="#">
+                                    <h3 class="product__item-heading">ellery x m'o capsule</h3>
+                                    <p class="product__item-text">Known for her sculptural takes on traditional
+                                        tailoring,
+                                        Australian arbiter of cool Kym Ellery
+                                        teams up with Moda Operandi.</p>
+                                    <p class="product__item-price">$52.00</p>
+                                </a>
+                                <button class="product__button">Add to cart</button>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a class="product__link" href="#">
-                            <img class="product__img" src="./img/product-2.jpg" alt="photo of product">
-                        </a>
+                    <li class="product__item">
+                        <div class="product__cart">
+                            <div class="product__cart-wrapper">
+                                <div class="product__img">
+                                    <img src="./img/product-2.jpg" alt="photo of product">
+                                </div>
+                                <div class="product__overlay"></div>
+                                <a class="product__link" href="#">
+                                    <h3 class="product__item-heading">ellery x m'o capsule</h3>
+                                    <p class="product__item-text">Known for her sculptural takes on traditional
+                                        tailoring,
+                                        Australian arbiter of cool Kym Ellery
+                                        teams up with Moda Operandi.</p>
+                                    <p class="product__item-price">$52.00</p>
+                                </a>
+                                <button class="product__button">Add to cart</button>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a class="product__link" href="#">
-                            <img class="product__img" src="./img/product-3.jpg" alt="photo of product">
-                        </a>
+                    <li class="product__item">
+                        <div class="product__cart">
+                            <div class="product__cart-wrapper">
+                                <div class="product__img">
+                                    <img src="./img/product-3.jpg" alt="photo of product">
+                                </div>
+                                <div class="product__overlay"></div>
+                                <h3 class="product__item-heading">ellery x m'o capsule</h3>
+                                <p class="product__item-text">Known for her sculptural takes on traditional tailoring,
+                                    Australian arbiter of cool Kym Ellery
+                                    teams up with Moda Operandi.</p>
+                                <p class="product__item-price">$52.00</p>
+                                <button class="product__button">Add to cart</button>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a class="product__link" href="#">
-                            <img class="product__img" src="./img/product-4.jpg" alt="photo of product">
-                        </a>
+                    <li class="product__item">
+                        <div class="product__cart">
+                            <div class="product__cart-wrapper">
+                                <div class="product__img">
+                                    <img src="./img/product-4.jpg" alt="photo of product">
+                                </div>
+                                <div class="product__overlay"></div>
+                                <h3 class="product__item-heading">ellery x m'o capsule</h3>
+                                <p class="product__item-text">Known for her sculptural takes on traditional tailoring,
+                                    Australian arbiter of cool Kym Ellery
+                                    teams up with Moda Operandi.</p>
+                                <p class="product__item-price">$52.00</p>
+                                <button class="product__button">Add to cart</button>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a class="product__link" href="#">
-                            <img class="product__img" src="./img/product-5.jpg" alt="photo of product">
-                        </a>
+                    <li class="product__item">
+                        <div class="product__cart">
+                            <div class="product__cart-wrapper">
+                                <div class="product__img">
+                                    <img src="./img/product-5.jpg" alt="photo of product">
+                                </div>
+                                <div class="product__overlay"></div>
+                                <h3 class="product__item-heading">ellery x m'o capsule</h3>
+                                <p class="product__item-text">Known for her sculptural takes on traditional tailoring,
+                                    Australian arbiter of cool Kym Ellery
+                                    teams up with Moda Operandi.</p>
+                                <p class="product__item-price">$52.00</p>
+                                <button class="product__button">Add to cart</button>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a class="product__link" href="#">
-                            <img class="product__img" src="./img/product-6.jpg" alt="photo of product">
-                        </a>
+                    <li class="product__item">
+                        <div class="product__cart">
+                            <div class="product__cart-wrapper">
+                                <div class="product__img">
+                                    <img src="./img/product-6.jpg" alt="photo of product">
+                                    <div class="product__overlay"></div>
+                                    <h3 class="product__item-heading">ellery x m'o capsule</h3>
+                                    <p class="product__item-text">Known for her sculptural takes on traditional
+                                        tailoring,
+                                        Australian arbiter of cool Kym Ellery
+                                        teams up with Moda Operandi.</p>
+                                    <p class="product__item-price">$52.00</p>
+                                    <button class="product__button">Add to cart</button>
+                                </div>
+                            </div>
                     </li>
+
                 </ul>
                 <div class="product__button-wrapper">
-                    <a class="product__button" href="#">Browse All Product
+                    <a class="product__button-all-products" href="#">Browse All Product
                     </a>
                 </div>
+            </section>
         </div>
         </section>
         </div>
@@ -237,6 +317,7 @@
             </div>
         </section>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
