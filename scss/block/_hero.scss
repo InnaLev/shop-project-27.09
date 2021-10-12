@@ -1,0 +1,27 @@
+.hero {
+    display: flex;
+    background-color: $pink;
+    color: white;
+    margin: 0 0 64px;
+
+    .hero-wrp {
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 92px;
+    }
+    
+    .hero__title {
+        font-family: Lato;
+        @include font(48px, 58px, 900);
+        text-transform: uppercase;
+    }
+    
+    .hero__subtitle {
+        display: block;
+        @include font(37px, 44px, 700);
+    }
+    
+    .hero__pink {
+        background-color: $dark-pink;
+    }
+}
