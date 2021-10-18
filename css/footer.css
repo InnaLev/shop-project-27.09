@@ -1,0 +1,183 @@
+.footer {
+  background-color: var(--black);
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 103px 15px;
+  width: 360px;
+}
+
+.footer__link {
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+  opacity: 0.5;
+  cursor: pointer;
+  outline: none;
+}
+
+.footer__link-title {
+  margin-top: 28px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19.96px;
+  line-height: 24px;
+  color: #FBFBFB;
+}
+
+.footer__link-text {
+  margin-top: 16px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13.972px;
+  line-height: 17px;
+  text-align: center;
+  color: #FBFBFB;
+}
+
+.footer__content {
+  background-image: url(../img/fon-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.footer__content-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__content-img {
+  margin-top: 97px;
+  margin-bottom: 126px;
+}
+
+.footer__content-title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 167.2%;
+  text-align: center;
+  color: #222224;
+  text-transform: uppercase;
+}
+
+.footer__content-subtitle {
+  display: block;
+  font-size: 18px;
+  line-height: 167.2%;
+}
+
+.footer__form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__form-size {
+  width: 256px;
+  height: 49px;
+  background: #E1E1E1;
+  border-radius: 20px 0 0 20px;
+  padding-left: 22px;
+}
+
+.footer__form-button {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  width: 100px;
+  height: 55px;
+  border-radius: 0 20px 20px 0;
+  background: #F16D7F;
+}
+
+.footer__form-button:hover,
+.footer__form-button:focus {
+  opacity: 0.5;
+  cursor: pointer;
+  outline: none;
+}
+
+.footer__bottom {
+  background-color: var(--black);
+}
+
+.footer__bottom-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__bottom-item {
+  margin: 30px 0;
+}
+
+.footer__bottom-roster {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__bottom-icon {
+  margin-right: 8px;
+}
+
+.footer__bottom-icon:hover {
+  border: 5px solid #F16D7F;
+}
+
+.page-info {
+  background-image: url(../img/fon-registration.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+/*# sourceMappingURL=footer.css.map */

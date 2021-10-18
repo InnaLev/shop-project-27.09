@@ -80,67 +80,79 @@
     <main>
         <section class="page-info">
             <div class="container">
-                <h1 class="page-info__title">registration</h1>
+                <h1 class="page-info__title">shopping cart</h1>
             </div>
         </section>
         <div class="container ">
             <div class="wrp">
-                <section class="form">
+                <section class="cart">
+                    <div class="cart__product">
+                        <div>
+                            <img src="./img/cart-men1.jpg" alt="product" width="262" height="306">
+                        </div>
+                        <div class="cart__wrp">
+                            <h2 class="cart__product-title">mango people<span
+                                    class="cart__product-subtitle">t-shirt</span>
+                            </h2>
+                            <ul class="cart__product-list">
+                                <li class="cart__product-item">Price: <span class="cart__product-subitem">$300</span>
+                                </li>
+                                <li class="cart__product-item">Color: Red</li>
+                                <li class="cart__product-item">Size: Xl</li>
+                                <li class="cart__product-item item-wrp">
+                                    <p class="cart__product-text">Quantity:</p>
+                                    <img src="./img/quantity.svg" alt="quantity">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cart__product">
+                        <div>
+                            <img src="./img/cart-men2.jpg" alt="product" width="262" height="306">
+                        </div>
+                        <div class="cart__wrp">
+                            <h2 class="cart__product-title">mango people<span
+                                    class="cart__product-subtitle">t-shirt</span>
+                            </h2>
+                            <ul class="cart__product-list">
+                                <li class="cart__product-item">Price: <span class="cart__product-subitem">$300</span>
+                                </li>
+                                <li class="cart__product-item">Color: Red</li>
+                                <li class="cart__product-item">Size: Xl</li>
+                                <li class="cart__product-item item-wrp">
+                                    <p class="cart__product-text">Quantity:</p>
+                                    <img src="./img/quantity.svg" alt="quantity">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cart__product-button">
+                        <button class="cart__button-clear">clear shopping cart</button>
+                        <button class="cart__button-continue">continue shopping</button>
+                    </div>
+                </section>
+                <section class="cart__form">
                     <form action="">
                         <fieldset>
-                            <legend class="form__legend">Your Name</legend>
+                            <legend class="cart__form-legend">shipping adress</legend>
                             <div class="form__wrapper">
-                                <input class="form__size" id="first-name" type="text" placeholder="First Name">
-                                <label for="first-name" class="visually-hidden">First Name</label>
-                                <label>
-                                    <input class="form__size" type="text" placeholder="Last Name">
-                                    <span class="visually-hidden">Last Name</span>
-                                </label>
-                                <div>
-                                    <input class="form__radio-input" type="radio" id="contactChoice1" name="contact"
-                                        value="male">
-                                    <label class="form__radio-label" for="contactChoice1">Male</label>
-
-                                    <input class="form__radio-input" type="radio" id="contactChoice2" name="contact"
-                                        value="Female">
-                                    <label class="form__radio-label" for="contactChoice2">Female</label>
-                                </div>
+                                <input class="form__size" id="first-name" type="text" placeholder="Bangladesh">
+                                <label for="first-name" class="visually-hidden">Bangladesh</label>
+                                <input class="form__size" id="first-name" type="text" placeholder="State">
+                                <label for="first-name" class="visually-hidden">State</label>
+                                <input class="form__size" id="first-name" type="text" placeholder="Postcode / Zip">
+                                <label for="first-name" class="visually-hidden">Postcode / Zip</label>
                             </div>
                         </fieldset>
 
-                        <fieldset>
-                            <legend class="form__legend">Login details</legend>
-                            <div>
-                                <input class="form__size" id="email" type="email" placeholder="Email">
-                                <label for="email" class="visually-hidden">Email</label>
-
-                                <label>
-                                    <input class="form__size" type="password" placeholder="Password">
-                                    <span class="visually-hidden">Password</span>
-                                </label>
-                                <p class="form__text">Please use 8 or more characters, with at least 1 number and a
-                                    mixture of uppercase
-                                    and lowercase letters</p>
-                            </div>
-                        </fieldset>
-                        <button class="form__button" type="submit">join now</button>
+                        <button class="cart__button-get" type="submit">get a quote</button>
                     </form>
-
-                </section>
-                <section class="perks">
-                    <h2 class="perks__title">loyalty has its perks</h2>
-                    <p class="perks__text">Get in on the loyalty program where you can earn points and unlock serious
-                        perks. Starting with these as soon as you join:</p>
-                    <ul class="perks__list">
-                        <li class="perks__item">15% off welcome offer
-                        </li>
-                        <li class="perks__item">Free shipping, returns and exchanges on all orders
-                        </li>
-                        <li class="perks__item">$10 off a purchase on your birthday
-                        </li>
-                        <lis class="perks__item">Early access to products</lis>
-                        <li class="perks__item">Exclusive offers & rewards</li>
-                    </ul>
+                    <div class="cart__total">
+                        <p class="cart__sub">sub total<span class="cart__sub-subitem">$900</p>
+                        <p class="cart__grand">grand total<span class="cart__grand-subitem">$900</span></p>
+                        <hr width="275px">
+                        <button class="cart__button-checkout" type="submit">proceed to checkout</button>
+                    </div>
                 </section>
             </div>
         </div>

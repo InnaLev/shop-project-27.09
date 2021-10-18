@@ -20,10 +20,24 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 71%px;
     margin: 0 auto;
 }
 
 .display-block {
     display: block;
+}
+
+@media (max-width: $desktop-width) {
+    .container {
+        width: 96%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .container {
+        width: 83%;
+        margin: 0 auto;
+    }
 }

@@ -1,0 +1,147 @@
+.footer {
+    background-color: $black;
+
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        margin: 103px 15px;
+        width: 360px;
+    }
+
+    &__link {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    &__link:hover,
+    &__link:focus {
+        opacity: 0.5;
+        cursor: pointer;
+        outline: none;
+    }
+
+    &__link-title {
+        margin-top: 28px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19.96px;
+        line-height: 24px;
+        color: #FBFBFB;
+    }
+
+    &__link-text {
+        margin-top: 16px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13.972px;
+        line-height: 17px;
+        text-align: center;
+        color: #FBFBFB;
+    }
+
+    &__content {
+        background-image: url(../img/fon-footer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+    }
+
+    &__content-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    &__content-img {
+        margin-top: 97px;
+        margin-bottom: 126px;
+    }
+
+    &__content-title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 167.2%;
+        text-align: center;
+        color: #222224;
+        text-transform: uppercase;
+    }
+
+    &__content-subtitle {
+        display: block;
+        font-size: 18px;
+        line-height: 167.2%;
+    }
+
+    &__form-wrapper {
+        display: flex;
+    }
+
+    &__form-size {
+        width: 256px;
+        height: 49px;
+        background: #E1E1E1;
+        border-radius: 20px 0 0 20px;
+        padding-left: 22px;
+    }
+
+    &__form-button {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        width: 100px;
+        height: 55px;
+        border-radius: 0 20px 20px 0;
+        background: #F16D7F
+    }
+
+    &__form-button:hover,
+    &__form-button:focus {
+        opacity: 0.5;
+        cursor: pointer;
+        outline: none;
+    }
+
+    &__bottom {
+        background-color: var(--black);
+    }
+
+    &__bottom-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__bottom-item {
+        margin: 30px 0;
+    }
+
+    &__bottom-roster {
+        display: flex;
+    }
+
+    &__bottom-icon {
+        margin-right: 8px;
+    }
+
+    &__bottom-icon:hover {
+        border: 5px solid #F16D7F;
+    }
+}

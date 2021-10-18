@@ -1,23 +1,81 @@
 .sale {
-    .sale__list {
+    &__list {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
-    } 
+        flex-wrap: wrap;
+        margin-top: 65px;
+        align-items: center;
+    }
 
-    .sale__item {
+    &__link {
+        text-decoration: none;
+    }
+
+    &__text {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        color: var(--dark-pink);
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__item {
         width: 360px;
-        min-height: 260px;
-        background-color: aquamarine;
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         @include flex-center;
+
+        @include tablet {
+            width: 31.5%;
+            min-height: 168px;
+        }
+
+        @include mobile {
+            width: 100%;
+            min-height: 247px;
+        }
     }
 
-    .sale__item--shoes {
+    &__link:hover {
+        border: 3px solid var(--dark-pink);
+    }
+
+    &__item-fon-women {
+        background-image: url(../img/sale-women.jpg);
+    }
+
+    &__item-fon-men {
+        background-image: url(../img/sale-men.jpg);
+    }
+
+    &__item-fon-kids {
+        background-image: url(../img/sale-kids.jpg);
+    }
+
+    &__item-fon-accesories {
+        background-image: url(../img/sale-accesopiers.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 100%;
-    }
-
-    .sale__item--space {
-        margin: 0 0 30px;
+        margin-top: 30px;
+        height: 180px;
     }
 }
