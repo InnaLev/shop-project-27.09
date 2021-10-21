@@ -1,0 +1,93 @@
+.sale {
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 65px;
+        align-items: center;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__text {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        color: $dark-pink;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__item {
+        width: 360px;
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include flex-center;
+
+        @include tablet {
+            width: 31.5%;
+            height: 168px;
+        }
+
+        @include mobile {
+            width: 100%;
+            height: 247px;
+            margin-bottom: 32px;
+        }
+    }
+
+    &__link:hover {
+        border: 3px solid $dark-pink;
+    }
+
+    &__item-fon-women {
+        background-image: url(../img/sale-women.jpg);
+    }
+
+    &__item-fon-men {
+        background-image: url(../img/sale-men.jpg);
+    }
+
+    &__item-fon-kids {
+        background-image: url(../img/sale-kids.jpg);
+    }
+
+    &__item-fon-accesories {
+        background-image: url(../img/sale-accesopiers.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin-top: 30px;
+        height: 180px;
+
+        @include tablet {
+            width: 100%;
+            height: 116px;
+        }
+
+        @include mobile {
+            width: 100%;
+            height: 111px;
+            margin-top: 0;
+        }
+    }
+}
