@@ -1,0 +1,116 @@
+.form {
+
+    &__legend {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+    }
+
+    &__size {
+        width: 360px;
+        height: 45px;
+        margin-top: 20px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__radio-input {
+        width: 17px;
+        height: 17px;
+        margin-top: 31px;
+        margin-bottom: 33px;
+    }
+
+    &__radio-label {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        color: #000000;
+    }
+
+    &__text {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #B1B1B1;
+        margin-top: 16px;
+        margin-bottom: 39px;
+        width: 359px;
+    }
+
+    &__button {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        background: #F16D7F;
+        padding: 16px 66px 17px 29px;
+        margin-bottom: 96px;
+        text-transform: uppercase;
+    }
+
+    &__button:hover,
+    &__button:focus {
+        opacity: 0.5;
+        cursor: pointer;
+        outline: none;
+    }
+
+    &__title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin: 0 0 22px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        width: 652px;
+        margin-bottom: 5px;
+    }
+
+    &__item {
+        position: relative;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-left: 35px;
+        margin-top: 16px;
+    }
+
+    &__item:before {
+        content: '';
+        width: 20px;
+        height: 16px;
+        position: absolute;
+        top: 5px;
+        left: -35px;
+        background-image: url(../img/mark.svg);
+        background-size: 20px 16px;
+    }
+
+}
