@@ -1,4 +1,6 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
+
 
 .visually-hidden {
     position: absolute;
@@ -49,6 +51,7 @@ a {
     }
 }
 
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -59,10 +62,10 @@ a {
     flex-grow: 1;
 }
 
-
 .display-block {
     display: block;
 }
+
 
 .carousel-item {
     background: #f7f7f7;
@@ -150,7 +153,6 @@ a {
     margin: 20px 0 1px 33px;
 }
 
-
 .menu-sub-item__item {
     font-family: Lato;
     font-style: normal;
@@ -178,6 +180,7 @@ a {
     display: flex;
     align-items: center;
     padding: 0 0 0 55px;
+
 }
 
 @media (max-width: 1599px) {
@@ -250,11 +253,13 @@ a {
     }
 }
 
+
 @media (max-width: 767px) {
     .hero .hero__img {
         display: none;
     }
 }
+
 
 .sale .sale__list {
     display: flex;
@@ -354,6 +359,7 @@ a {
     }
 }
 
+
 .container-product-market{
     max-width: 1140px;
     margin: 0 auto;
@@ -372,6 +378,7 @@ a {
     margin-bottom: 6px;
 }
 
+
 .market__text {
     font-family: Lato;
     font-style: normal;
@@ -383,12 +390,14 @@ a {
     margin-bottom: 48px;
 }
 
+
 .market__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: left;
 }
+
 
 .market__item {
     margin-bottom: 30px;
@@ -400,6 +409,7 @@ a {
     background: #F8F8F8;
 }
 
+
 .market__cart-wrapper {
     position: relative;
 }
@@ -409,7 +419,9 @@ a {
     min-height: 420px;
 }
 
+
 .market__overlay {
+
     width: 100%;
     min-height: 420px;
     background: rgba(58, 56, 56, 0.86);
@@ -417,12 +429,15 @@ a {
     top: 0;
 }
 
+
 .market__button {
+
     position: absolute;
     top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 .market__overlay,
 .market__button {
@@ -445,6 +460,7 @@ a {
     margin: 25px 0 13px 18px;
 }
 
+
 .market__item-text {
     font-family: Lato;
     font-style: normal;
@@ -455,6 +471,7 @@ a {
     margin-bottom: 18px;
     margin-left: 18px;
 }
+
 
 .market__item-price {
     font-family: Lato;
@@ -467,9 +484,11 @@ a {
     margin-left: 18px;
 }
 
+
 .market__link {
     text-decoration: none;
 }
+
 
 
 .market__button-wrapper {
@@ -479,6 +498,7 @@ a {
     margin-top: 18px;
     margin-bottom: 96px;
 }
+
 
 .market__button-all-products {
     font-family: Lato;
@@ -494,6 +514,7 @@ a {
     text-align: center;
     display: block;
 }
+
 
 .market__button-all-products:hover,
 .market__button-all-products:focus {
@@ -623,6 +644,7 @@ a {
     .top__box__product {
     flex-direction: column;
     align-items: center;
+
     }
 }
 
@@ -714,6 +736,13 @@ a {
     .footer .footer__feedback .footer__feedback__box {
         align-items: center;
         flex-direction: column;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .footer .footer__feedback .footer__feedback__box .feedback__box__item {
+        margin-bottom: 48px;
     }
 }
 
@@ -1382,6 +1411,7 @@ a {
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
+
     color: #ffffff;
     margin-top: 17px;
 }

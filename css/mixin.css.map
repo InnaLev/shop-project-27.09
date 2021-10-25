@@ -1,5 +1,4 @@
 {
-
     "version": 3,
     "mappings": "",
     "sources": [
@@ -8,4 +7,3 @@
     "names": [],
     "file": "mixin.css"
 }
-
