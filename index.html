@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <header class="header">
         <div class="container header__container">
             <div class="header__box">
@@ -31,6 +32,7 @@
                 </button>
                 <a class="header__ico" href="registration.html"><img src="./img/person.svg" alt="person" width="29"
                         height="29"></a>
+                <a class="header__ico" href="cart.html"><img src="img/cart.svg" alt="basket" width="29" height="29"></a>
                 <a class="header__ico" href="#"><img src="img/basket.svg" alt="basket" width="29" height="29"></a>
                 <nav class="header__menu" id="menu">
                     <h2 class="header__title">menu</h2>
@@ -232,88 +234,63 @@
         </section>
         </div>
     </main>
-    <footer>
-        <section class="footer">
-            <div class="container">
-                <h2 class="visually-hidden">footer</h2>
-                <ul class="footer__list">
-                    <li class="footer__item">
-                        <a class="footer__link" href="#">
-                            <img src="./img/delivery.svg" alt="delivery">
-                            <h3 class="footer__link-title">Free Delivery</h3>
-                            <p class="footer__link-text">Worldwide delivery on all. Authorit tively morph
-                                next-generation
-                                innov tion with extensive
-                                models.</p>
-                        </a>
-                    </li>
-                    <li class="footer__item">
-                        <a class="footer__link" href="#">
-                            <img src="./img/sale.svg" alt="sale">
-                            <h3 class="footer__link-title">Sales & discounts</h3>
-                            <p class="footer__link-text">Worldwide delivery on all. Authorit tively morph
-                                next-generation
-                                innov tion with extensive
-                                models.</p>
-                        </a>
-                    </li>
-                    <li class="footer__item">
-                        <a class="footer__link" href="#">
-                            <img src="./img/quality.svg" alt="quality assurance">
-                            <h3 class="footer__link-title">Quality assurance</h3>
-                            <p class="footer__link-text">Worldwide delivery on all. Authorit tively morph
-                                next-generation
-                                innov tion with extensive
-                                models.</p>
-                        </a>
-                    </li>
-                </ul>
+    <footer class="footer">
+        <section class="footer__info">
+            <div class="footer__info__box container">
+                <div class="info__box__item">
+                    <img class="box__item__img" src="img/delivery.svg" alt="delivery">
+                    <h2 class="box__item__title">free delivery</h2>
+                    <p class="box__item__text">worldwide delivery on all. authorit tively morph next-generation
+                        innov tion with extensive
+                        models.
+                    </p>
+                </div>
+                <div class="info__box__item">
+                    <img class="box__item__img" src="img/sale.svg" alt="sale">
+                    <h2 class="box__item__title">sales & discounts</h2>
+                    <p class="box__item__text">worldwide delivery on all. authorit tively morph next-generation
+                        innov tion with extensive
+                        models.
+                    </p>
+                </div>
+                <div class="info__box__item">
+                    <img class="box__item__img" src="img/quality.svg" alt="guarantee">
+                    <h2 class="box__item__title">quality assurance</h2>
+                    <p class="box__item__text">worldwide delivery on all. authorit tively morph next-generation
+                        innov tion with extensive
+                        models.
+                    </p>
+                </div>
             </div>
         </section>
-        <section class="footer__content">
-            <div class="container">
-                <ul class="footer__content-list">
-                    <li class="footer__content-item">
-                        <img class="footer__content-img" src="./img/women-footer.svg" alt="women-footer">
-                    </li>
-                    <li class="footer__content-item">
-                        <h3 class="footer__content-title">subscribe
-                            <span class="footer__content-subtitle">for our newletter and promotion</span>
-                        </h3>
-                    </li>
-                </ul>
+        <section class="footer__feedback">
+            <div class="footer__feedback__box container">
+                <div class="feedback__box__item women">
+                    <img class="feedback__box__img" src="img/women-footer.png" alt="women">
+                    <p class="feedback__box__text">“vestibulum quis porttitor dui! quisque viverra nunc mi, a
+                        pulvinar purus condimentum“</p>
+                </div>
+                <div class="feedback__box__item">
+                    <h2 class="feedback__box__title">subscribe</h2>
+                    <p class="feedback__box__desc">for our newletter and promotion</p>
+                    <form>
+                        <input class="feedback__box__email" type="email" placeholder="enter yor email">
+                        <input class="feedback__box__button" type="submit" value="subscribe">
+                    </form>
+                </div>
             </div>
         </section>
-        <section class="footer__bottom">
-            <div class="container">
-                <ul class="footer__bottom-list">
-                    <li class="footer__bottom-item">
-                        <p class="footer__bottom-text">© 2021 Brand All Rights Reserved.</p>
-                    </li>
-                    <li class="footer__bottom-item">
-                        <ul class="footer__bottom-roster">
-                            <li class="footer__bottom-icon">
-                                <a class="footer__bootom-link" href=" #">
-                                    <img src="./img/facebook.svg" alt="facebook">
-                                </a>
-                            </li>
-                            <li class="footer__bottom-icon">
-                                <a class="footer__bootom-link" href=" #">
-                                    <img src="./img/instagram.svg" alt="instagram">
-                                </a>
-                            </li>
-                            <li class="footer__bottom-icon">
-                                <a class="footer__bootom-link" href=" #">
-                                    <img src="./img/pinterest.svg" alt="pinterest">
-                                </a>
-                            </li>
-                            <li class="footer__bottom-icon">
-                                <a class="footer__bootom-link" href=" #">
-                                    <img src="./img/twitter.svg" alt="twitter">
-                                </a>
-                            </li>
-                        </ul>
-                </ul>
+        <section class="footer__social">
+            <div class="footer__social__item container">
+                <p>&copy; 2021 brand all rights reserved</p>
+                <div class="social__box">
+                    <ul>
+                        <li><a href="#"><img src="img/facebook.svg" alt="facebook"></a></li>
+                        <li><a href="#"><img src="img/instagram.svg" alt="instagram"></a></li>
+                        <li><a href="#"><img src="img/pinterest.svg" alt="pinterest"></a></li>
+                        <li><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
+                    </ul>
+                </div>
             </div>
         </section>
     </footer>

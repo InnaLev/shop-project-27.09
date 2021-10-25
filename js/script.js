@@ -1,4 +1,4 @@
-console.log('1');
+
 let button = document.getElementById('burger');
 
 let navigation = document.getElementById('menu');

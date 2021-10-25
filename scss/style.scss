@@ -1,12 +1,31 @@
-@import './variables.scss';
+
+@import './_variables.scss';
+
 @import './mixin.scss';
 
-@import './general';
+@import './_general';
 
-@import './block/header.scss';
+@import './block/_header';
 
-@import './block/hero';
+@import './block/_hero';
 
-@import './block/sale';
+@import './block/_sale';
 
-@import './block/form';
+@import './block/_form';
+
+@import './block/_product';
+
+@import './block/_footer';
+
+@import './block/_basket';
+
+@import './block/_delivery';
+
+@import './block/_feedback';
+
+@import './block/_form';
+
+@import './block/_registration';
+
+@import './block/_top__box';
+

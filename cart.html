@@ -1,15 +1,11 @@
-
 <!doctype html>
 <html lang="ru">
-
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Регистрация</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -88,47 +84,68 @@
             <main>
                 <section class="top__box">
                     <div class="container">
-                        <h1 class="top__box__title">registration</h1>
+                        <h1 class="top__box__title">shopping cart</h1>
                     </div>
                 </section>
-                <section class="feedback container">
-                    <div class="feedback__form">
-                        <form action="/" method="post">
-                            <fieldset class="feedback__form__name ">
-                                <legend>your name</legend>
-                                <input class="form__name__item" type="text" name="first_name" placeholder="first name">
-                                <input class="form__name__item" type="text" name="last_name" placeholder="last name">
-                            </fieldset>
-                            <div class="feedback__form__gender">
-                                <input class="form__gender__input" type="radio" name="gender" id="gender_male"
-                                    value="male">
-                                <label class="form__gender__label" for="gender_male">male</label>
-                                <input class="form__gender__input" type="radio" name="gender" id="gender_famale"
-                                    value="female">
-                                <label class="form__gender__label" for="gender_famale">female</label>
+                <section class="basket container">
+                    <div class="basket__list">
+                        <div class="basket__list__item ">
+                            <img class="basket__item__img" src="img/blouse_men.png" alt="blose">
+                            <button class="basket__item__close"></button>
+                            <div class="basket__item__box">
+                                <h2 class="basket__item__title">mango people</h2>
+                                <h3 class="basket__item__desc">t-shirt</h3>
+                                <div class="basket__item__data">
+                                    <p class="item__data">price:<span class="data__value data__price-value">$300</span>
+                                    </p>
+                                    <p class="item__data">color:<span class="data__value data__color-value">red</span>
+                                    </p>
+                                    <p class="item__data">size:<span class="data__value data__size-value">xl</span></p>
+                                    <p class="item__data">quantity:<input type="text"
+                                            class="data__value data__quantity-value" value="2"> </p>
+                                </div>
                             </div>
-                            <fieldset class="feedback__form__data">
-                                <legend>login details</legend>
-                                <input class="form__name__item" type="email" name="email" placeholder="email">
-                                <input class="form__name__item" type="password" name="password" placeholder="password">
-                            </fieldset>
-                            <p class="feedback__form__desc">please use 8 or more characters, with at least 1 number and
-                                a mixture of uppercase and lowercase letters</p>
-                            <button type="submit" class="feedback__form__button"><span
-                                    class="feedback__form__button-decorate">join now</span></button>
-                        </form>
+                        </div>
+                        <div class="basket__list__item ">
+                            <img class="basket__item__img" src="img/blouse_men_2.png" alt="blose">
+                            <button class="basket__item__close"></button>
+                            <div class="basket__item__box">
+                                <h2 class="basket__item__title">mango people</h2>
+                                <h3 class="basket__item__desc">t-shirt</h3>
+                                <div class="basket__item__data">
+                                    <p class="item__data">price:<span class="data__value data__price-value">$300</span>
+                                    </p>
+                                    <p class="item__data">color:<span class="data__value data__color-value">red</span>
+                                    </p>
+                                    <p class="item__data">size:<span class="data__value data__size-value">xl</span></p>
+                                    <p class="item__data">quantity:<input type="text"
+                                            class="data__value data__quantity-value" value="2"> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basket__list__btn">
+                            <button class="list__btn btn__clear" type="submit">clear shopping cart</button>
+                            <button class="list__btn btn__continue" type="submit">continue shopping</button>
+                        </div>
                     </div>
-                    <div class="feedback__loyalty">
-                        <h2 class="feedback__loyalty__title">loyalty has its perks</h2>
-                        <p class="feedback__loyalty__desc">get in on the loyalty program where you can earn points and
-                            unlock serious perks. starting with these as soon as you join:</p>
-                        <ul class="feedback__loyalty__list">
-                            <li class="list__item">15% off welcome offer</li>
-                            <li class="list__item">free shipping, returns and exchanges on all orders</li>
-                            <li class="list__item">$10 off a purchase on your birthday</li>
-                            <li class="list__item">early access to products</li>
-                            <li class="list__item">exclusive offers & rewards</li>
-                        </ul>
+                    <div class="basket__data">
+                        <fieldset class="delivery">
+                            <legend class="delivery__legend">shipping adress</legend>
+                            <input class="delivery__input" type="text" placeholder="country" name="country">
+                            <input class="delivery__input" type="text" placeholder="state" name="state">
+                            <input class="delivery__input" type="text" placeholder="postcode / zip" name="zip">
+                            <button class="delivery__button" type="submit">get a quote</button>
+                        </fieldset>
+                        <div class="registration">
+                            <div class="registration__total">
+                                <h4 class="registration__total__sub">sub total<span
+                                        class="total_value total__sub-value">$900</span></h4>
+                                <h5 class="registration__total__grand">grand total<span
+                                        class="total_value total__grand-value">$900</span></h5>
+                            </div>
+                            <hr class="registration__hr">
+                            <button class="registration__button" type="submit">proceed to checkout</button>
+                        </div>
                     </div>
                 </section>
             </main>
@@ -166,7 +183,6 @@
             </section>
         </footer>
     </div>
-
     <script src="js/script.js"></script>
 </body>
 
