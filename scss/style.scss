@@ -3,7 +3,13 @@
 
 @import './mixin.scss';
 
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
+
 @import './_general';
+
+@import './_bt';
+
 
 @import './block/_header';
 
@@ -11,11 +17,9 @@
 
 @import './block/_sale';
 
-@import './block/_form';
 
-@import './block/_product';
+@import './block/_market';
 
-@import './block/_footer';
 
 @import './block/_basket';
 
@@ -29,3 +33,7 @@
 
 @import './block/_top__box';
 
+
+@import './block/product';
+
+@import './block/_footer';
