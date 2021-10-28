@@ -87,67 +87,67 @@
         line-height: 16px;
         color: #000000;
         margin: 25px 0 13px 18px;
+        text-transform: uppercase;
+
+        &__item-text {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #5D5D5D;
+            margin-bottom: 18px;
+            margin-left: 18px;
+        }
+
+        &__item-price {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #F16D7F;
+            margin-bottom: 20px;
+            margin-left: 18px;
+        }
+
+        &__link {
+            text-decoration: none;
+        }
+
+
+        &__button-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 18px;
+            margin-bottom: 96px;
+        }
+
+        &__button-all-products {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #F26376;
+            border: 1px solid #FF6A6A;
+            padding: 15px 39px;
+            justify-content: center;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+        }
+
+        &__button-all-products:hover,
+        &__button-all-products:focus {
+            opacity: 0.5;
+            cursor: pointer;
+            outline: none;
+        }
+
+        &__button-all-products:active {
+            opacity: 0.9;
+        }
+
     }
-
-    &__item-text {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 17px;
-        color: #5D5D5D;
-        margin-bottom: 18px;
-        margin-left: 18px;
-    }
-
-    &__item-price {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        color: #F16D7F;
-        margin-bottom: 20px;
-        margin-left: 18px;
-    }
-
-    &__link {
-        text-decoration: none;
-    }
-
-
-    &__button-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 18px;
-        margin-bottom: 96px;
-    }
-
-    &__button-all-products {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        color: #F26376;
-        border: 1px solid #FF6A6A;
-        padding: 15px 39px;
-        justify-content: center;
-        text-decoration: none;
-        text-align: center;
-        display: block;
-    }
-
-    &__button-all-products:hover,
-    &__button-all-products:focus {
-        opacity: 0.5;
-        cursor: pointer;
-        outline: none;
-    }
-
-    &__button-all-products:active {
-        opacity: 0.9;
-    }
-
-}

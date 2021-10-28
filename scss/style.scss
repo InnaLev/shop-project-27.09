@@ -1,4 +1,3 @@
-
 @import './_variables.scss';
 
 @import './mixin.scss';
@@ -34,6 +33,12 @@
 @import './block/_top__box';
 
 
-@import './block/product';
+@import './block/_product';
+
+@import './block/_catalog';
+
+@import './block/_filter';
+
+@import './block/_pages';
 
 @import './block/_footer';
